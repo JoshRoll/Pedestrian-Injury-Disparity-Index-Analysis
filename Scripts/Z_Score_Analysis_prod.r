@@ -10,41 +10,20 @@
 #Load libraries
 #------------------------------
 	#Establish library path
-	.libPaths("C:/Program Files/R/R-4.0.2/library")
-	library(lubridate)
 	library(tigris)
 	library(dplyr)
-	library(readxl)
-	library(tmaptools) 
-	library(tidygeocoder)
-	library(httr)
-	library(jsonlite)
 	library(rgdal)
-	library(devtools)
-	library(anytime)
 	library(htmlwidgets)
 	library(sf)
 	library(stringr)
 	library(leaflet)
 	library(htmlwidgets)
-	library(tigris)
 	library(tidyr)
 	library(ggplot2)
-	library(data.table)
-	library(MASS)
-	library(mfx)
-	library(pscl)
-	library(corrplot)
-	library(boot)
-	library(caret)
-	library(doParallel)
-	library(survey)
-	library(snow)
-	library(doSNOW)
-	library(foreach)
-	library(readxl)
-	library(data.table)
-	library(DescTools)
+	
+	
+
+
 	
 #Set environmanetal 
 #-----------------
