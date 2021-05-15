@@ -7,7 +7,7 @@ pedestrain injury rates for each REII category to demonstrate that communities w
 
 # Script Details  
 Two scripts are available in this repository.  The script Z_Score_Analysis_prod.r will take previously compiled data and develop the Race, Ethnicity, and Income Index (REII)
-and use it to calculate pedestrain injury rates.  The data that in Tracts_Data_2014-2014.RData and Tracts_Data_2008_2012.RData contain data elements from Census 
+and use it to calculate pedestrain injury rates.  The data compiled in Tracts_Data_2014-2014.RData and Tracts_Data_2008_2012.RData contain data elements from Census 
 which can be acquired using the script titled download_Census_Prepare_data_prod.r.  Other data elements inlcuding pedestrain injury data and transportation netowrk data
 are derived from different data sets which are not easy to link to in this project
 
@@ -17,6 +17,8 @@ Pedestrain injury rates (per 100,000 people) are calculated along with some trav
 including fatal and severe injuries and total pedestrain injuries.  Two periods of data are available including years from 2008 to 2012 and from 2014 to 2018.  REII is calculated for both periods for comparison.  Another item in  
 the script summarizes measures for injuries, population, and travel and built environmental measures are created and charted. Lasly, dynamic maps are created that utilize the leaflet package to see how the REII appears 
 spatially and also to explore the other data elements.  
+
+# Data Details
 
 
 ## download_Census_Prepare_data_prod.r 
