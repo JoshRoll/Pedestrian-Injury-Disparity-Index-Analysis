@@ -18,12 +18,13 @@ including fatal and severe injuries and total pedestrain injuries.  Two periods 
 the script summarizes measures for injuries, population, and travel and built environmental measures are created and charted. Lasly, dynamic maps are created that utilize the leaflet package to see how the REII appears 
 spatially and also to explore the other data elements.  
 
-# Data Details
-
-
 ## download_Census_Prepare_data_prod.r 
 This script uses some R packages to automatically access tract level Census data elements including sociodemographics, vehicle ownership, commute mode, among others.  The script is written to pull tract level data but
 could easily be modified to pull other Census geographies.  You will need to sign up for a free Census API key.  
+
+# Data Details
+
+
 
 # Contact
 Principle Investigator: Josh Roll  josh.f.roll@odot.state.or.us  
