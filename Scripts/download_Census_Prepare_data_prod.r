@@ -326,9 +326,9 @@
 	#	"AdminName3", "AdminCode3", "latitude", "longitude", "accuracy")
 	#save(Zip_Codes.., file = "//wpdotfill09/R_VMP3_USERS/tdb069/Data/Census/Documentation/Zip_Code_Lookup.RData")
 	#Load 
-	Zip_Codes.. <- assignLoad(file = "//wpdotfill09/R_VMP3_USERS/tdb069/Data/Census/Documentation/Zip_Code_Lookup.RData")
+	#Zip_Codes.. <- assignLoad(file = "//wpdotfill09/R_VMP3_USERS/tdb069/Data/Census/Documentation/Zip_Code_Lookup.RData")
 	#Select just oregon zip
-	Zip_Codes.. <- filter(Zip_Codes.., AdminCode1 =="OR")
+	#Zip_Codes.. <- filter(Zip_Codes.., AdminCode1 =="OR")
 	
 #Grab and perpare Census Data
 #----------------------------------------------------------------
@@ -336,9 +336,9 @@
 	########################
 	#acs.lookup(keyword = "B08301", endyear = 201)
 	#x <- acs.lookup(table.name = "B16004_006E", endyear = 2015)
-	x <-  acs.lookup(endyear=2018, table.number="B23024",case.sensitive=F)
-	x <-  acs.lookup(endyear=2018, table.name = "disability",case.sensitive=F)
-	B18101
+	#x <-  acs.lookup(endyear=2018, table.number="B23024",case.sensitive=F)
+	#x <-  acs.lookup(endyear=2018, table.name = "disability",case.sensitive=F)
+	
 	#Initialize Census Key
 	#api.key.install(Developer_Key)
 	#Define census variables to download 
